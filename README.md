@@ -21,6 +21,7 @@ I am learning Go Language from different Video Courses, Books, and Websites. We 
 >1. To be decided
 >1. To be decided
 >1. To be decided
+>1. Debugging the go code
 
 ### 2. Nerd to Novice in Go Lang
 
