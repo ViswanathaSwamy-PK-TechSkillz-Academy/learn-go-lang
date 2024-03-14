@@ -2,10 +2,6 @@
 
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	fmt.Println("Hello, Go Lang World!")
+	println("Hello, Go Lang World!")
 }
