@@ -18,7 +18,7 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 ### 1. Noob to Nerd in `Go` Lang
 
 >1. `Session 1:` Series Introduction, and Getting started with `Go`
->1. `Session 2:` To be decided
+>1. `Session 2:` Working with Values, Variables, Basic Types, and Constants in `Go`
 >1. `Session 3:` To be decided
 >1. `Session 4:` To be decided
 >1. `Session 5:` Debugging the `Go` code
