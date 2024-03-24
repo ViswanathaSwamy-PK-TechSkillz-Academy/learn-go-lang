@@ -10,8 +10,9 @@ func main() {
 	fmt.Println("Showing the Values Demo")
 
 	// Character
-	fmt.Println('A', rune('A'), string('A'))
-	fmt.Println('世', rune('世'), string('世'))
+	fmt.Println('A', string('A'))
+	fmt.Println('世', string('世'))
+	fmt.Printf("%c %c\n", 'A', '世') // We will revist this
 
 	// Strings
 	fmt.Println("Hello World")
@@ -28,4 +29,8 @@ func main() {
 	fmt.Println(`This is first line. 
 	This is second line.`)
 
+	// Error
+	n, e := fmt.Println("Hello" + " " + "World")
+	fmt.Println("Number of bytes written: ", n)
+	fmt.Println("Error: ", e)
 }
