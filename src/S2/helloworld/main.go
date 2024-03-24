@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	println("Hello, Go Lang World! Showing the executable path.")
+	fmt.Println("Showing the executable path.")
 
 	exePath, err := os.Executable()
 
