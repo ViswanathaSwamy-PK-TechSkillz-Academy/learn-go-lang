@@ -29,8 +29,13 @@ func main() {
 	fmt.Println(`This is first line. 
 	This is second line.`)
 
-	// Error
-	n, e := fmt.Println("Hello" + " " + "World")
-	fmt.Println("Number of bytes written: ", n)
-	fmt.Println("Error: ", e)
+	// Numbers
+	fmt.Println(42)
+	fmt.Println(42.0)
+	fmt.Println(42.0 + 3.0)
+	fmt.Println(42.0 + 3.0)
+
+	// Booleans
+	fmt.Println(true)
+	fmt.Println(false)
 }
