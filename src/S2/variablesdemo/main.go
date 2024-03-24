@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Showing the Values Demo")
+	fmt.Println("Showing the Variables Demo")
 
 	// Strings
 	fmt.Println("\nShowing Strings ...")
