@@ -9,6 +9,11 @@ import (
 func main() {
 	fmt.Println("Showing the Values Demo")
 
+	// Character
+	fmt.Println('A', rune('A'), string('A'))
+	fmt.Println('世', rune('世'), string('世'))
+
+	// Strings
 	fmt.Println("Hello World")
 	fmt.Println(`Hello World`)
 
@@ -22,4 +27,5 @@ func main() {
 	fmt.Println("This is first line. This is second line.")
 	fmt.Println(`This is first line. 
 	This is second line.`)
+
 }
