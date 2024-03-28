@@ -69,9 +69,3 @@ func main() {
 	fmt.Println("Number of bytes written: ", n)
 	fmt.Println("Error: ", e)
 }
-
-// // Character
-// a, b := 'A', '世'
-// fmt.Println(a, string(a))
-// fmt.Println(b, string(b))
-// fmt.Printf("%c %c\n", a, b)

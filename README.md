@@ -13,6 +13,14 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 > 1. Beginner Intermediate - Building Full Stack Applications using `Go`
 > 1. Beginner Intermediate - Building Microservices using `Go`
 
+```go
+// Character
+a, b := 'A', '世'
+fmt.Println(a, string(a))
+fmt.Println(b, string(b))
+fmt.Printf("%c %c\n", a, b)
+```
+
 ## Planned Series
 
 ### 1. Noob to Nerd in `Go` Lang
