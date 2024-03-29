@@ -36,11 +36,15 @@ func main() {
 	fmt.Println("Numbers: ", -42)
 	fmt.Println("Numbers: ", 384748542.048575)
 	fmt.Println("Numbers: ", 42.0+3.0)
+	fmt.Println("1+1 =", 1+1)
+	fmt.Println("7.0/3.0 =", 7.0/3.0)
 
 	// Booleans
 	fmt.Println("\nShowing Booleans")
 	fmt.Println("Boolean: ", true)
 	fmt.Println("Boolean: ", false)
+	fmt.Println("Boolean: ", !true)
+	fmt.Println("Boolean: ", !false)
 }
 
 // // Character

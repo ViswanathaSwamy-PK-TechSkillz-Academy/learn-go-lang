@@ -24,12 +24,15 @@ func main() {
 	msg4 := "Hello World" // Short Declaration. Type Inference
 	fmt.Println("Message 4: ", msg4)
 
+	// Multi-line Strings. Escape characters will be honored
 	msg4 = "This is first line. \nThis is second line."
 	fmt.Println("Message 4: ", msg4)
 
+	// Multi-line Strings using backticks. It will Ignore the formatting. Escape characters will be ignored
 	msg4 = `This is first line. \nThis is second line.`
 	fmt.Println("Message 4: ", msg4)
 
+	// Multi-line Strings using backticks. It preserves the formatting
 	msg4 = `
 		<Person>
 			<FirstName>John</FirstName>
@@ -66,9 +69,3 @@ func main() {
 	fmt.Println("Number of bytes written: ", n)
 	fmt.Println("Error: ", e)
 }
-
-// // Character
-// a, b := 'A', '世'
-// fmt.Println(a, string(a))
-// fmt.Println(b, string(b))
-// fmt.Printf("%c %c\n", a, b)
