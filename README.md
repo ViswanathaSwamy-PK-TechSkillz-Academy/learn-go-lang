@@ -33,10 +33,11 @@ fmt.Printf("%c %c\n", a, b)
 
 ### 2. Nerd to Novice in `Go` Lang
 
->1. To be decided
->1. To be decided
->1. To be decided
->1. To be decided
+>1. `Session 6:` Accepting input from console
+>1. `Session 7:` Introduction to Functions
+>1. `Session 8:` Collection types
+>1. `Session 9:` Functions Part II
+>1. `Session 10:` Testing the `Go` code
 
 ### 3. Novice to Beginner in `Go` Lang
 
