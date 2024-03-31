@@ -31,6 +31,28 @@ fmt.Printf("%c %c\n", a, b)
 >1. `Session 4:` If/Else, For Loops
 >1. `Session 5:` Debugging the `Go` code
 
+### Topics Planned
+
+> 1. `Go` tool chain
+> 1. Single Binary
+>    - `.exe` location when executing from `VS Code`
+>    - `.exe` location when executing using `go run`
+>    - `.exe` location when executing using `go build`
+> 1. Values Demo
+>    - Strings | Numbers | Booleans
+> 1. Basic Types
+>    - string | int | uinit | float32 | float64 | bool | error
+> 1. Variables
+>    - Zero values
+>    - Variables with initializers
+>    - Short variable declarations
+> 1. Constants
+> 1. Basic Types Part II
+> 1. Type Conversions
+> 1. Arithmetic and Comparison Operators
+> 1. Escape sequences
+> 1. Constant Expressions, and Iota
+
 ### 2. Nerd to Novice in `Go` Lang
 
 >1. `Session 6:` Accepting input from console
