@@ -27,8 +27,8 @@ fmt.Printf("%c %c\n", a, b)
 
 >1. `Session 1:` Series Introduction, and Getting started with `Go`
 >1. `Session 2:` Working with Values, Variables, Basic Types, and Constants in `Go`
->1. `Session 3:` To be decided
->1. `Session 4:` To be decided
+>1. `Session 3:` Arcthmetic Operators, Comparision Operators, Type Conversions
+>1. `Session 4:` If/Else, For Loops
 >1. `Session 5:` Debugging the `Go` code
 
 ### 2. Nerd to Novice in `Go` Lang
