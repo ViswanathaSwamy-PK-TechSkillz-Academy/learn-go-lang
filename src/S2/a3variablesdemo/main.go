@@ -68,4 +68,8 @@ func main() {
 	n, e := fmt.Println("Message: Hello" + " " + "World")
 	fmt.Println("Number of bytes written: ", n)
 	fmt.Println("Error: ", e)
+
+	var i int = 42
+	var f float32 = float32(i)
+	fmt.Println("Float32: ", f)
 }
