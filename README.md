@@ -46,12 +46,12 @@ fmt.Printf("%c %c\n", a, b)
 >    - Zero values
 >    - Variables with initializers
 >    - Short variable declarations
-> 1. Constants
-> 1. Basic Types Part II
-> 1. Type Conversions
 > 1. Arithmetic <https://go.dev/ref/spec#Arithmetic_operators>
+> 1. Constants
 > 1. Comparison Operators <https://go.dev/ref/spec#Comparison_operators>
 > 1. Escape sequences
+> 1. Basic Types Part II
+> 1. Type Conversions
 > 1. Constant Expressions, and Iota
 
 ### 2. Nerd to Novice in `Go` Lang

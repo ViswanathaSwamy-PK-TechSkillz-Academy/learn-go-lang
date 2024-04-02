@@ -15,8 +15,8 @@ func main() {
 	fmt.Println("Hello World")
 	fmt.Println(`Hello World`)
 
-	fmt.Println("This is first line. \nThis is second line.")
-	fmt.Println(`This is first line. \nThis is second line.`)
+	fmt.Println("This is first line. \nThis is second line.") // Interpreted string
+	fmt.Println(`This is first line. \nThis is second line.`) // Raw string
 
 	/*
 		.\main.go:18:36: newline in string || .\main.go:18:36: syntax error: unexpected newline in argument list; possibly missing comma or )
