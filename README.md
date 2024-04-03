@@ -32,7 +32,7 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 > 1. Type Conversions
 > 1. Arithmetic <https://go.dev/ref/spec#Arithmetic_operators>
 > 1. Comparison Operators <https://go.dev/ref/spec#Comparison_operators>
-> 1. Basic Types Part II
+> 1. Basic Types Part II (Complex numbers, )
 > 1. Constants, Constant Expression, Iota
 > 1. Pointers
 
