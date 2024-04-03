@@ -25,6 +25,7 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 > 1. Escape sequences
 > 1. Basic Types
 >    - string | int | uinit | float32 | float64 | bool | error
+>    - <https://pkg.go.dev/builtin#error>
 > 1. Variables
 >    - Zero values
 >    - Variables with initializers
