@@ -15,6 +15,8 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 
 ## Topics Planned
 
+### Session 2
+
 > 1. `Go` tool chain
 > 1. Single Binary
 >    - `.exe` location when executing from `VS Code`
@@ -33,9 +35,13 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 > 1. Type Conversions
 > 1. Arithmetic <https://go.dev/ref/spec#Arithmetic_operators>
 > 1. Comparison Operators <https://go.dev/ref/spec#Comparison_operators>
-> 1. Basic Types Part II (Complex numbers, )
+
+### Session 3
+
+> 1. Basic Types Part II (Complex numbers, rune, character)
 > 1. Constants, Constant Expression, Iota
 > 1. Pointers
+> 1. Functions Part I
 
 ## Planned Series
 
