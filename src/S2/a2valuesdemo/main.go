@@ -30,7 +30,7 @@ func main() {
 	</Person>
 	`)
 
-	// Numbers
+	// Numbers (int, uint, float32, float64)
 	fmt.Println("\nShowing Numbers")
 	fmt.Println("Numbers: ", 42)
 	fmt.Println("Numbers: ", -42)
