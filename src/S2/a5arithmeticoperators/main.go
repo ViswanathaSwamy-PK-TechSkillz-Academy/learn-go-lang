@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("Modulus: ", n1%n2) // Modulus
 
 	n3, n4 := 25.68, 28.912
-	fmt.Println("Addition: ", n3+n4)
+	fmt.Println("\nAddition: ", n3+n4)
 	fmt.Println("Substraction: ", n3-n4)
 	fmt.Println("Multiplication: ", n3*n4)
 	fmt.Println("Division: ", n3/n4)
