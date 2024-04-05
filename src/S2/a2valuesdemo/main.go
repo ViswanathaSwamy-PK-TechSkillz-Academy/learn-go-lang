@@ -46,8 +46,3 @@ func main() {
 	fmt.Println("Boolean: ", !true)
 	fmt.Println("Boolean: ", !false)
 }
-
-// // Character
-// fmt.Println('A', string('A'))
-// fmt.Println('世', string('世'))
-// fmt.Printf("%c %c\n", 'A', '世') // We will revist this
