@@ -9,6 +9,21 @@ import (
 func main() {
 	fmt.Println("Showing the Variables Demo")
 
+	// Show the Zero Values Demo
+	fmt.Println("\nShowing Zero Values ...")
+	var z1 int
+	fmt.Println("Int: ", z1)
+	var z2 uint
+	fmt.Println("UInt: ", z2)
+	var z3 float32
+	fmt.Println("Float32: ", z3)
+	var z4 float64
+	fmt.Println("Float64: ", z4)
+	var s1 string
+	fmt.Println("String: ", s1, " Length: ", len(s1))
+	var b3 bool
+	fmt.Println("Boolean: ", b3)
+
 	// Strings
 	fmt.Println("\nShowing Strings ...")
 	var msg1 string      // Variable Declaration
@@ -72,19 +87,4 @@ func main() {
 	var i int = 42
 	var f float32 = float32(i)
 	fmt.Println("Float32: ", f)
-
-	// Show the Zero Values Demo
-	fmt.Println("\nShowing Zero Values ...")
-	var z1 int
-	fmt.Println("Int: ", z1)
-	var z2 uint
-	fmt.Println("UInt: ", z2)
-	var z3 float32
-	fmt.Println("Float32: ", z3)
-	var z4 float64
-	fmt.Println("Float64: ", z4)
-	var s1 string
-	fmt.Println("String: ", s1, " Length: ", len(s1))
-	var b3 bool
-	fmt.Println("Boolean: ", b3)
 }
