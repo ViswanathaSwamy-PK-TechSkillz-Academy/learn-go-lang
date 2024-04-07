@@ -8,13 +8,13 @@ func main() {
 	fmt.Println("\nShowing Constants Demo")
 
 	var i int = 10
-	fmt.Println("Int: ", i)
+	fmt.Println("\nInt: ", i)
 	var f float64 = 10
 	fmt.Println("Float64: ", f)
 
 	// untyped constant OR Implicitly typed constant
 	const a = 42
-	fmt.Println("Untyped Constant: ", a)
+	fmt.Println("\nUntyped Constant: ", a)
 
 	// One constant can be assigned to another constant of same type
 	const a1 int = a
@@ -25,7 +25,7 @@ func main() {
 
 	// typed constant OR Explicitly typed constant
 	const f32 float32 = 3.14
-	fmt.Println("Typed float32 Constant: ", f32)
+	fmt.Println("\nTyped float32 Constant: ", f32)
 
 	// cannot use f32 (constant 3 of type float32) as float64 value in constant declaration
 	// const f64 float64 = f32
@@ -34,7 +34,7 @@ func main() {
 
 	// Constants can be used in expressions
 	const cccc = 2 * 5
-	fmt.Println("Constant Expression 2 * 5 : ", cccc)
+	fmt.Println("\nConstant Expression 2 * 5 : ", cccc)
 
 	const dddd = "Hello " + "Gophers"
 	fmt.Println("Constant Expression 'Hello ' + 'Gophers' : ", dddd)
