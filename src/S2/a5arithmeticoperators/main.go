@@ -10,7 +10,7 @@ func main() {
 
 	// Multiple Declaration
 	n1, n2 := 5, 2
-	fmt.Println("Addition: ", n1+n2)
+	fmt.Println("\nAddition: ", n1+n2)
 	fmt.Println("Subtraction: ", n1-n2)
 	fmt.Println("Multiplication: ", n1*n2)
 	fmt.Println("Division: ", n1/n2) // Integer Division
