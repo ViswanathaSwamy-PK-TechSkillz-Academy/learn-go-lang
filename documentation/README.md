@@ -6,11 +6,52 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 
 ### Session 1
 
-> 1. Debugging
+> 1. The Big Picture
+>    - Previous Session(s)
+> 1. Series Introduction
+> 1. What is `Go`?
+> 1. The `Go` Playground
+> 1. `Go` installation
+>    - Verifying `Go` version
+>    - Retrieving available `Go` commands
+>    - Getting Help on `Go` Commands
+> 1. Install `VS Code`, and `golang.go` VS Code extension
+> 1. Install/Update `Go tools` in VS Code
+> 1. Discussion on a couple of `Go tools`
+>    - `gopls`
+>    - `staticcheck`
+>    - `goplay`
+> 1. Few `Go` commands
+>    - `go mod init`
+>    - `go run .`
+> 1. Let's `Go` with our first `Go` program
+>    - Create a `Go` module inside `helloworld` folder
+>    - Create a main.go file, to contain the code
+>    - Quick Code Walk-through
+>    - Executing the `Go` code i.e., main.go file
+>    - Create a go.mod and main.go file, inside another folder `helloworldv1`
+>    - Executing the `Go` code
+>    - Few ways to execute `Go` code
+> 1. SUMMARY / RECAP / Q&A
 
 ### Session 2
 
-> 1. Debugging
+> 1. The Big Picture
+>    - Previous Session(s)
+> 1. `Go` tool chain
+> 1. Single Binary
+>    - `.exe` location when executing from `VS Code`
+>    - `.exe` location when executing using `go run`
+>    - `.exe` location when executing using `go build`
+> 1. Values Demo
+> 1. Escape sequences
+> 1. Basic Types
+> 1. Variables
+> 1. Type Conversions
+> 1. Arithmetic
+> 1. Comparison Operators
+> 1. Constants, Constant Expression
+> 1. SUMMARY / RECAP / Q&A
 
 ### Session 3
 
@@ -24,6 +65,7 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 ### Session 4
 
 > 1. Functions - Take no arguments, and returns value
+> 1. Functions - Take no arguments, and returns multiple values
 > 1. Functions - Take arguments, and returns value
 
 ### Session 5
