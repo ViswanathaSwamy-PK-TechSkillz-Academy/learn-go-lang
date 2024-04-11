@@ -60,10 +60,12 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 > 1. Constants, Constant Expression, Iota
 > 1. Pointers
 > 1. Functions - Take arguments, and returns nothing
-> 1. Functions - Take arguments, same type can ignore mentioning for each variables
+> 1. Functions - Take arguments, multiple arguments of same type, and returns nothing
 
 ### Session 4
 
+> 1. If/Else
+> 1. For Loops, break
 > 1. Functions - Take no arguments, and returns value
 > 1. Functions - Take no arguments, and returns multiple values
 > 1. Functions - Take arguments, and returns value
@@ -71,14 +73,6 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 ### Session 5
 
 > 1. Debugging
-
-```go
-// Character
-a, b := 'A', '世'
-fmt.Println(a, string(a))
-fmt.Println(b, string(b))
-fmt.Printf("%c %c\n", a, b)
-```
 
 ---
 
@@ -121,3 +115,13 @@ fmt.Printf("%c %c\n", a, b)
 |13. | Base64 Encoding | Reading Files | Writing Files | Line Filters | File Paths |
 |14. | Directories | Temporary Files and Directories | 3 | 4 | 5 |
 |15. | 1 | 2 | 3 | 4 | 5 |
+
+---
+
+```go
+// Character
+a, b := 'A', '世'
+fmt.Println(a, string(a))
+fmt.Println(b, string(b))
+fmt.Printf("%c %c\n", a, b)
+```
