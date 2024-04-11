@@ -72,6 +72,7 @@ I am learning `Go` Language from different Video Courses, Books, and Websites. W
 
 ### Session 5
 
+> 1. Local Reusable Code `Header` and `Footer`
 > 1. Debugging
 
 ---
