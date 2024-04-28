@@ -10,22 +10,15 @@ import (
 func main() {
 
 	time := time.Now()
-	transfer := transfers.NewTransfer("1234", time, 12000.7, "USD", 44354363)
+	transfer := transfers.NewTransaction("123", "Educative bank", 23453.98, "USD", time, 453646)
 
-	fmt.Printf("\n*** Date validation: ***\n")
-	// Validate date
-	if transfer.IsDateAllowed() {
-		fmt.Println("Date is allowed")
-	} else {
-		fmt.Println("Date is not allowed")
-	}
+	fmt.Println("**** Before executing a transfer ****")
 
-	fmt.Printf("\n\n*** Amount limit validation *** \n")
-	// Validate amount
-	if transfer.IsAmountLimitAllowed() {
-		fmt.Println("Amount is allowed")
+	// Transfer money, it validates business rules
+	if transfer.TransferMoney() {
+		fmt.Println("Transfer is done")
 	} else {
-		fmt.Println("Amount is not allowed")
+		fmt.Println("Transfer is not done")
 	}
 
 }

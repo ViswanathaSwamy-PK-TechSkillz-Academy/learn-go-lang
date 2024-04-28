@@ -12,7 +12,7 @@ func NewAmount(value float64, currency string) *Amount {
 	}
 }
 
-// IsAmountLimitAllowed check whether amount to transfer does not got beyond the bank limits
+// IsAmountLimitAllowed check whether amount to transfer does not got beyond the bank limits (Ex: 10,000)
 func (a *Amount) IsAmountLimitAllowed() bool {
 	return a.value < 10000
 }
