@@ -6,7 +6,6 @@ import "time"
 type Transfer struct {
 	id        string
 	date      time.Time
-	amount    *Amount
 	accountId int64
 }
 
@@ -15,7 +14,6 @@ func NewTransfer(id string, date time.Time, amount float64, currency string, acc
 	return &Transfer{
 		id:        id,
 		date:      date,
-		amount:    NewAmount(amount, currency),
 		accountId: accountId,
 	}
 }
@@ -25,9 +23,4 @@ func (t *Transfer) IsDateAllowed() bool {
 	now := time.Now()
 
 	return !t.date.After(now)
-}
-
-// IsAmountLimitAllowed check whether amount to transfer does not got beyond the bank limits
-func (t *Transfer) IsAmountLimitAllowed() bool {
-	return t.amount.IsAmountLimitAllowed()
 }
