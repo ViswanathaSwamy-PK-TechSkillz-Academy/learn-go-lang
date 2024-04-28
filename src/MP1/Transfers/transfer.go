@@ -10,7 +10,7 @@ type Transfer struct {
 }
 
 // NewTransfer is the only way to create a transfer entity
-func NewTransfer(id string, date time.Time, amount float64, currency string, accountId int64) *Transfer {
+func NewTransfer(id string, date time.Time, accountId int64) *Transfer {
 	return &Transfer{
 		id:        id,
 		date:      date,
