@@ -6,6 +6,9 @@ import (
 	"fmt"
 )
 
+// var empAge int = 25 // This will work. Variable Declaration at the package level
+// empName := "John Doe" // This will not work. Short Declaration can't be used at the package level
+
 func main() {
 	fmt.Println("Showing the Variables Demo")
 
@@ -87,4 +90,10 @@ func main() {
 	var i int = 42
 	var f float32 = float32(i)
 	fmt.Println("Float32: ", f)
+
+	var f32 float32 = 3.14
+	var f64 float64 = float64(f32)
+	fmt.Println("Float64: ", f64)
+
+	// var f64_1 float64 = 938493.143847
 }
