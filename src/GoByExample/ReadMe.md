@@ -10,7 +10,11 @@ go work init
 
 ## Topics
 
-### [Values](https://gobyexample.com/values)
+### X. [Topics](https://gobyexample.com/values)
+
+### 3. [Values](https://gobyexample.com/values)
+
+### 2. [Values](https://gobyexample.com/values)
 
 ```powershell
 mkdir a2values && cd a2values
@@ -19,7 +23,7 @@ go work use .
 go run .
 ```
 
-### [Hello World](https://gobyexample.com/hello-world)
+### 1. [Hello World](https://gobyexample.com/hello-world)
 
 ```powershell
 mkdir a1helloworld && cd a1helloworld
