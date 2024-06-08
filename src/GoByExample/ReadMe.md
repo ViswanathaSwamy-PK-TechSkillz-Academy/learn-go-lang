@@ -12,7 +12,14 @@ go work init
 
 ### X. [Topics](https://gobyexample.com/values)
 
-### 3. [Values](https://gobyexample.com/values)
+### 3. [Variables](https://gobyexample.com/variables)
+
+```powershell
+mkdir a3variables && cd a3variables
+go mod init a3variables
+go work use .
+go run .
+```
 
 ### 2. [Values](https://gobyexample.com/values)
 
