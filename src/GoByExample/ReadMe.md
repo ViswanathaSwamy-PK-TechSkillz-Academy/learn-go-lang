@@ -12,6 +12,8 @@ go work init
 
 ### X. [Topics](https://gobyexample.com/values)
 
+### 4. [Topics](https://gobyexample.com/values)
+
 ### 3. [Variables](https://gobyexample.com/variables)
 
 ```powershell
