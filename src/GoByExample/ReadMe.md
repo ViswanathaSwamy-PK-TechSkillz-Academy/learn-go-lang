@@ -12,6 +12,15 @@ go work init
 
 ### X. [Topics](https://gobyexample.com/values)
 
+### 4. [Constants](https://gobyexample.com/constants)
+
+```powershell
+mkdir a4constants && cd a4constants
+go mod init a4constants
+go work use .
+go run .
+```
+
 ### 3. [Variables](https://gobyexample.com/variables)
 
 ```powershell
